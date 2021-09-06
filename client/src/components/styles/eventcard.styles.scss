@@ -1,0 +1,36 @@
+.event-container {
+  width: 700px;
+  min-height: 260px;
+  padding-bottom: 15px;
+}
+
+.img-event {
+  height: 200px;
+  // border: 1px solid #c4c4c4;
+  width: 300px;
+  object-fit: contain;
+  background-color: #f9f9f9;
+}
+.text-event-min {
+  padding: 15px;
+  width: 340px;
+  height: 200px;
+  font-size: 12px;
+  overflow: hidden;
+}
+.text-event {
+  padding: 15px;
+  width: 340px;
+  height: 340px;
+  font-size: 12px;
+  overflow-y: scroll;
+
+}
+.btn-readmore {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 12px;
+  color: green;
+  cursor: pointer;
+}

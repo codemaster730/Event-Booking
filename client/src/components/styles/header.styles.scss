@@ -1,0 +1,27 @@
+#site-navigation {
+  height: 30px !important;
+  font-size: 14px !important;
+  padding-top: 4px !important;
+  background-color: #c4c4c4 !important;
+  border: none !important;
+  border-radius: 1px;
+  color: black;
+  width: 100%;
+  padding-left: 2px;
+}
+.dropdown-item {
+  font-size: 12px;
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+.dropdown-arrow {
+  position: absolute;
+  right: 1px;
+  top: 7px;
+}
+.navigation-dropdown {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}

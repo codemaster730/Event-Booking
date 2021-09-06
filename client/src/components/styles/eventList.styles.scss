@@ -1,0 +1,12 @@
+
+.events-list {
+  position: absolute;
+  width: 90%;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%);
+  overflow-x: scroll;
+}
+.event-item {
+  border: none;
+}
